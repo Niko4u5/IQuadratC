@@ -57,6 +57,7 @@ namespace Utility
             {
                 newFunc[i] = funcs[i];
             }
+            funcs = newFunc;
         }
     }
 }
