@@ -56,5 +56,7 @@ public class PublicEvent : ScriptableObject
         {
             newFunc[i] = funcs[i];
         }
+        
+        funcs = newFunc;
     }
 }
